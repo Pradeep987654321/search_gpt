@@ -2,8 +2,8 @@ import streamlit as st
 from openai import OpenAI
 
 # Set your OpenRouter API key here (or use Streamlit secrets for security)
-#api_key = "OPENAI_API_KEY"
-api_key = st.secrets["OPENAI_API_KEY"]
+api_key = "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"
+#api_key = st.secrets["OPENAI_API_KEY"]
 #api_key = st.secrets["OPENAI_API_KEY"]
 
 # Initialize OpenAI client
